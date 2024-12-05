@@ -1,0 +1,6 @@
+{
+  "extends": "../.nuxt/tsconfig.server.json",
+  "compilerOptions": {
+    "types": ["h3", "./types/h3.d.ts"]
+  }
+}
