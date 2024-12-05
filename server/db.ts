@@ -3,7 +3,6 @@ import pkg from 'pg';
 
 const { Pool } = pkg;
 
-// PostgreSQL 연결 설정
 const pool = new Pool({
   host: 'localhost',
   port: 5432,

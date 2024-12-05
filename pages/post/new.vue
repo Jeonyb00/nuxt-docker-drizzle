@@ -35,7 +35,7 @@ const createPost = async () => {
       method: 'POST',
       body: form.value,
     });
-    console.log(data.value); // 성공 메시지 출력
+    console.log(data.value);
     router.push('/');
   } catch (err) {
     error.value = '게시글 저장 중 문제가 발생했습니다.';
